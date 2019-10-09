@@ -6,7 +6,6 @@ Enjoy alexa is a serverless stack that represents the services for alexa.
 
 * Configure your **aws credentials** at `~/.aws/credentials`
 *note: Attention to set your personal developer aws account to dev-aws profile in this configuration file*
-* Create your Route53 subdomain record in the main AWS Account;
 * Install NodeJS v10 or later;
 * Install Serverless framework; [https://serverless.com/](https://serverless.com/)
 
@@ -18,7 +17,6 @@ Set this enviroments to run this stack in your AWS account correctly:
 
 ```bash
 export AWS_ACCOUNT=account_number_here
-export SERVERLESS_SUBDOMAIN=domain_here
 ```
 
 ### Install via npm
