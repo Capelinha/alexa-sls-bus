@@ -6,7 +6,7 @@ import { get, post } from 'request-promise-native';
 export class BusHandler implements RequestHandler {
   public canHandle(handlerInput: HandlerInput): boolean {
     const request = handlerInput.requestEnvelope.request;
-    return request.type === 'LaunchRequest' || request.type === 'IntentRequest' && request.intent.name === 'BusIntent';
+    return request.type === 'IntentRequest' && request.intent.name === 'BusIntent';
   }
 
   public async handle(handlerInput: HandlerInput): Promise<Response> {
