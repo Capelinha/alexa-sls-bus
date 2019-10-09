@@ -5,7 +5,7 @@ Enjoy alexa is a serverless stack that represents the services for alexa.
 ## Requirements
 
 * Configure your **aws credentials** at `~/.aws/credentials`
-*note: Attention to set your personal developer aws account to dev-aws profile in this configuration file*
+*note: Attention to set your personal developer aws account to personal profile in this configuration file*
 * Install NodeJS v10 or later;
 * Install Serverless framework; [https://serverless.com/](https://serverless.com/)
 
