@@ -1,6 +1,6 @@
 # alexa-sls-bus
 
-Enjoy alexa is a serverless stack that represents the services for alexa.
+This is a serverless stack that represents the services for alexa.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ npm i
 1. Access your AWS account and s3 section;
 1. Create a new Bucket with this pattern:
     * *servicename*-*AWS_ACCOUNT*-*stage*-*region*-deploys.
-    Example: `alexa-sls-bus-214468698722-dev-us-east-1-deploys`
+    Example: `alexa-sls-bus-214468858722-dev-us-east-1-deploys`
 *note: create your Bucket in **us-east-1** region*
     
 ### Deploy dev account
