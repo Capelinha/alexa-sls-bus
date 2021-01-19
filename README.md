@@ -1,6 +1,6 @@
 # alexa-sls-bus
 
-This is a serverless stack that represents the services for alexa.
+This is a serverless stack that represents the services for alexa. Alex's skill to know the location of São Paulo buses
 
 ## Requirements
 
