@@ -21,7 +21,7 @@
     "@types/request": "^2.48.2",
     "@types/request-promise-native": "^1.0.16",
     "ask-sdk": "^2.7.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment-timezone": "^0.5.26",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
